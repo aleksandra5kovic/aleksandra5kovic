@@ -1,1 +1,45 @@
+section {
+	padding: 50px;
+	width: 100vw;
+	height: 100vh;
+	font-family: "Times New Roman", Georgia, Serif;
+}
 
+.s1 {
+	background: url(../images/header.jpg);
+	background-size: 100% ;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom center;
+	text-align: center;
+	color: white;
+	width: 100vw;
+	height: 100vh;
+	padding: 200px;
+}
+
+img {
+	width: 300px;
+	transition: opacity 1s ease-in-out;
+	margin: 30px;
+}
+
+.img-thumbnail:hover {
+	opacity: .5;
+}
+
+.col-text {
+	column-count: 3;
+}
+
+.s4 {
+	background-color: silver;
+}
+
+form {
+	text-align: center;
+}
+
+.paragraph {
+	margin-top: 6px;
+}

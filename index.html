@@ -1,21 +1,117 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+    <title>Portfolio</title>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/aleksandra5kovic.css">
+  </head>
+
+  <body>
+    <div class="container">
+    <nav class="navbar navbar-toggleable-md navbar-light fixed-bottom navbar-inverse bg-inverse">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#work">My Work</a>
+          <a class="nav-item nav-link" href="#about">About Me</a>
+          <a class="nav-item nav-link" href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <section id="home" class="s1">
+    <h1>My Portfolio</h1>
+    <p>Take a look on my work and contact me</p>
+    <a href="#contact"><button class="btn btn-default">Contact Me</button></a>
+  </section>
+
+  <section id="work" class="container">
+    <div>
+      <h1 class="text-center">My Work</h1>
+      <hr>
+    </div>
+    <img id="work" src="images/work-1.jpg" class="img-thumbnail">
+    <img id="work" src="images/work-2.jpg" class="img-thumbnail">
+    <img id="work" src="images/work-3.jpg" class="img-thumbnail">
+    <img id="work" src="images/work-4.jpg" class="img-thumbnail">
+    <img id="work" src="images/work-5.jpg" class="img-thumbnail">
+    <img id="work" src="images/work-6.jpg" class="img-thumbnail">
+  </section>
+
+  <section id="about" class="container">
+    <h1 class="text-center">About Me</h1>
+    <hr>
+    <div class="col-text">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus bibendum efficitur auctor. Curabitur tortor leo, tempus sed dictum eget, auctor et odio. Duis scelerisque neque dignissim massa mollis suscipit. In dapibus efficitur magna sed viverra. Donec eget justo sit amet mi imperdiet blandit eu semper eros. Sed tempus nisl vitae orci iaculis euismod. Mauris metus felis, consequat ac leo nec, gravida pellentesque ex. Praesent pellentesque nibh a velit tincidunt accumsan. Maecenas rutrum tortor sed dignissim pharetra. Quisque pulvinar egestas arcu, in porta ante varius quis. Mauris quis ligula ut turpis blandit posuere nec ac urna. Curabitur non nibh non ante fringilla feugiat at et lacus.
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-6 ">
+            <div class="card-header text-center">
+                <div class="card card-heading bg-primary">
+                    <h4 class="paragraph">Web Designing</h4>
+                </div>
+                <div class="card-block">
+                  <img src="images/web-design.jpg" class="rounded-circle">
+                    <p class="lead">I Do Web Design</p>
+                </div>
+                <!-- <div class="card-footer"></div> -->
+            </div>
+        </div>
+        <div class="col-md-6 ">
+            <div class="card-header text-center">
+                <div class="card card-heading bg-primary">
+                    <h4 class="paragraph">Web Designing</h4>
+                </div>
+                <div class="card-block">
+                  <img src="images/web-design.jpg" class="rounded-circle">
+                    <p class="lead">I Do Web Design</p>
+                </div>
+                <!-- <div class="card-footer"></div> -->
+            </div>
+        </div>
+  </section>
+  <br> <br>
+  <section id="contact" class="s4">
+    <div>
+      <h2 class="text-center">Contact Me</h2>
+      <hr>
+    </div>
+    <form class="col-md-4 offset-md-4">
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Insert your name">
+      </div>
+      <div class="form-group">
+        <input type="email" class="form-control" placeholder="Insert your email">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control" placeholder="Subject">
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="10">Comments</textarea>
+      </div>
+      <div class="form-group">
+        <input type="submit" class="btn btn-success btn-block">
+      </div>
+    </form>
+  </section>
+
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   </body>
 </html>
