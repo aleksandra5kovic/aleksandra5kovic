@@ -1,8 +1,8 @@
 section {
-	padding: 50px;
+/*	padding: 50px;
 	width: 100vw;
 	height: 100vh;
-	font-family: "Times New Roman", Georgia, Serif;
+	font-family: "Times New Roman", Georgia, Serif;*/
 }
 
 .s1 {
@@ -43,3 +43,12 @@ form {
 .paragraph {
 	margin-top: 6px;
 }
+
+.s4 {
+	width: 100vw;
+	height: 90vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+}
+
