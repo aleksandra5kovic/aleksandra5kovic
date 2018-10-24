@@ -1,3 +1,5 @@
 aleksandra5kovic
 ---
-https://aleksandra5kovic.github.io
+Source code for my personal online presentation . HTML, CSS, Bootstrap
+
+Live Demo: https://aleksandra5kovic.github.io
